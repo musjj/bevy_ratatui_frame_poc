@@ -1,0 +1,12 @@
+[package]
+name = "bevy_ratatui_frame_poc"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bevy = { version = "0.18.1", default-features = false }
+bevy_ratatui = "0.11.1"
+ratatui = "0.30.0"
+
+[patch.crates-io]
+ratatui = { git = "https://github.com/musjj/ratatui.git", branch="resizeless-render" }
