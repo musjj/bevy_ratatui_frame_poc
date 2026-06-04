@@ -62,6 +62,6 @@ fn adjust_frame(mut frame: ResMut<BevyFrame>, mut context: ResMut<RatatuiContext
 
 fn draw_frame(frame: ResMut<BevyFrame>, mut context: ResMut<RatatuiContext>) -> Result {
     context.current_buffer_mut().merge(&frame.buffer);
-    context.apply_buffer(frame.cursor_position)?;
+    context.apply_buffer_with_cursor(frame.cursor_position)?;
     Ok(())
 }

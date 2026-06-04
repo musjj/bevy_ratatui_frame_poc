@@ -2153,7 +2153,7 @@ dependencies = [
 [[package]]
 name = "ratatui"
 version = "0.30.0"
-source = "git+https://github.com/musjj/ratatui.git?branch=resizeless-render#008efd74913d43d98c4331f5747cb9c6952f9068"
+source = "git+https://github.com/musjj/ratatui.git?branch=resizeless-render#2f24e100e90deacff9847b67ab847cf5a09b526d"
 dependencies = [
  "instability",
  "ratatui-core",
@@ -2167,7 +2167,7 @@ dependencies = [
 [[package]]
 name = "ratatui-core"
 version = "0.1.0"
-source = "git+https://github.com/musjj/ratatui.git?branch=resizeless-render#008efd74913d43d98c4331f5747cb9c6952f9068"
+source = "git+https://github.com/musjj/ratatui.git?branch=resizeless-render#2f24e100e90deacff9847b67ab847cf5a09b526d"
 dependencies = [
  "bitflags 2.12.1",
  "compact_str",
@@ -2189,7 +2189,7 @@ dependencies = [
 [[package]]
 name = "ratatui-crossterm"
 version = "0.1.0"
-source = "git+https://github.com/musjj/ratatui.git?branch=resizeless-render#008efd74913d43d98c4331f5747cb9c6952f9068"
+source = "git+https://github.com/musjj/ratatui.git?branch=resizeless-render#2f24e100e90deacff9847b67ab847cf5a09b526d"
 dependencies = [
  "cfg-if",
  "crossterm",
@@ -2200,7 +2200,7 @@ dependencies = [
 [[package]]
 name = "ratatui-macros"
 version = "0.7.0"
-source = "git+https://github.com/musjj/ratatui.git?branch=resizeless-render#008efd74913d43d98c4331f5747cb9c6952f9068"
+source = "git+https://github.com/musjj/ratatui.git?branch=resizeless-render#2f24e100e90deacff9847b67ab847cf5a09b526d"
 dependencies = [
  "ratatui-core",
  "ratatui-widgets",
@@ -2209,7 +2209,7 @@ dependencies = [
 [[package]]
 name = "ratatui-termwiz"
 version = "0.1.0"
-source = "git+https://github.com/musjj/ratatui.git?branch=resizeless-render#008efd74913d43d98c4331f5747cb9c6952f9068"
+source = "git+https://github.com/musjj/ratatui.git?branch=resizeless-render#2f24e100e90deacff9847b67ab847cf5a09b526d"
 dependencies = [
  "ratatui-core",
  "termwiz",
@@ -2218,7 +2218,7 @@ dependencies = [
 [[package]]
 name = "ratatui-widgets"
 version = "0.3.0"
-source = "git+https://github.com/musjj/ratatui.git?branch=resizeless-render#008efd74913d43d98c4331f5747cb9c6952f9068"
+source = "git+https://github.com/musjj/ratatui.git?branch=resizeless-render#2f24e100e90deacff9847b67ab847cf5a09b526d"
 dependencies = [
  "bitflags 2.12.1",
  "hashbrown 0.17.1",
